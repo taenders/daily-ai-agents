@@ -9,7 +9,8 @@
     "start": "node dist/index.js",
     "lint": "eslint src/**/*.ts",
     "typecheck": "tsc --noEmit",
-    "prd-check": "tsx src/agents/prd-checker.ts"
+    "prd-check": "tsx src/agents/prd-checker.ts",
+    "prioritize": "tsx src/agents/feature-prioritizer.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
